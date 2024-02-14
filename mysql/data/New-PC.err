@@ -1,0 +1,373 @@
+2017-06-02 15:05:18 3916 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:18 3916 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:18 3916 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:18 3916 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:18 3916 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:18 3916 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:18 3916 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:18 3916 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:18 3916 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-06-02 15:05:18 3916 [Note] InnoDB: The log sequence numbers 1835037 and 1835037 in ibdata files do not match the log sequence number 4688516 in the ib_logfiles!
+2017-06-02 15:05:18 3916 [Note] InnoDB: Database was not shutdown normally!
+2017-06-02 15:05:18 3916 [Note] InnoDB: Starting crash recovery.
+2017-06-02 15:05:18 3916 [Note] InnoDB: Reading tablespace information from the .ibd files...
+2017-06-02 15:05:18 3916 [Note] InnoDB: Restoring possible half-written data pages 
+2017-06-02 15:05:18 3916 [Note] InnoDB: from the doublewrite buffer...
+2017-06-02 15:05:20 3284 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:20 3284 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:20 3284 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:20 3284 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:20 3284 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:20 3284 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:20 3284 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:20 3284 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:20 3284 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:20 3284 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:20 3284 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:20 3284 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:20 3284 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:20 3284 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:20 3284 [ERROR] Aborting
+
+2017-06-02 15:05:21 3916 [Warning] InnoDB: Resizing redo log from 2*320 to 2*3072 pages, LSN=4688516
+2017-06-02 15:05:21 3916 [Warning] InnoDB: Starting to delete and rewrite log files.
+2017-06-02 15:05:21 3916 [Note] InnoDB: Setting log file .\ib_logfile101 size to 48 MB
+2017-06-02 15:05:22 3916 [Note] InnoDB: Setting log file .\ib_logfile1 size to 48 MB
+2017-06-02 15:05:23 2880 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:23 2880 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:23 2880 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:23 2880 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:23 2880 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:23 2880 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:23 2880 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:23 2880 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:23 2880 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:23 2880 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:23 2880 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:23 2880 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:23 2880 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:23 2880 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:23 2880 [ERROR] Aborting
+
+2017-06-02 15:05:24 3916 [Note] InnoDB: Renaming log file .\ib_logfile101 to .\ib_logfile0
+2017-06-02 15:05:24 3916 [Warning] InnoDB: New log files created, LSN=4688908
+2017-06-02 15:05:24 3916 [Note] InnoDB: 128 rollback segment(s) are active.
+2017-06-02 15:05:24 3916 [Note] InnoDB: Waiting for purge to start
+2017-06-02 15:05:24 3916 [Note] InnoDB:  Percona XtraDB (http://www.percona.com) 5.6.34-79.1 started; log sequence number 4688516
+2017-06-02 15:05:24 1664 [Note] InnoDB: Dumping buffer pool(s) not yet started
+2017-06-02 15:05:24 3916 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:24 3916 [Note] Server socket created on IP: '::'.
+2017-06-02 15:05:24 3916 [ERROR] mysqld.exe: Table '.\mysql\db' is marked as crashed and should be repaired
+2017-06-02 15:05:24 3916 [Warning] Checking table:   '.\mysql\db'
+2017-06-02 15:05:24 3916 [ERROR] mysql.db: 1 client is using or hasn't closed the table properly
+2017-06-02 15:05:24 3916 [ERROR] mysqld.exe: Table '.\mysql\tables_priv' is marked as crashed and should be repaired
+2017-06-02 15:05:24 3916 [Warning] Checking table:   '.\mysql\tables_priv'
+2017-06-02 15:05:24 3916 [ERROR] mysql.tables_priv: 1 client is using or hasn't closed the table properly
+2017-06-02 15:05:24 3916 [ERROR] mysqld.exe: Table '.\mysql\columns_priv' is marked as crashed and should be repaired
+2017-06-02 15:05:24 3916 [Warning] Checking table:   '.\mysql\columns_priv'
+2017-06-02 15:05:24 3916 [ERROR] mysql.columns_priv: 1 client is using or hasn't closed the table properly
+2017-06-02 15:05:24 3916 [ERROR] mysqld.exe: Table '.\mysql\procs_priv' is marked as crashed and should be repaired
+2017-06-02 15:05:24 3916 [Warning] Checking table:   '.\mysql\procs_priv'
+2017-06-02 15:05:24 3916 [ERROR] mysql.procs_priv: 1 client is using or hasn't closed the table properly
+2017-06-02 15:05:25 3916 [Note] C:\xampp\mysql\bin\mysqld.exe: ready for connections.
+Version: '10.1.21-MariaDB'  socket: ''  port: 3306  mariadb.org binary distribution
+2017-06-02 15:05:25 4188 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:25 4188 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:25 4188 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:25 4188 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:25 4188 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:25 4188 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:25 4188 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:25 4188 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:25 4188 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:25 4188 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:25 4188 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:25 4188 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:25 3900 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:25 3900 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:25 3900 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:25 3900 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:25 3900 [Note2] 0I1n7n-o0D6B-:0 2C o1m5pressed tables use zlib 1.2.3
+:05:25 4188 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:25 3900 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:25 4188 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:25 3900 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:25 4188 [ERROR] Aborting
+
+2017-06-02 15:05:25 3600 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:25 3600 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:25 3600 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:25 3600 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:25 3600 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:25 3600 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:25 3900 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:25 3600 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:25 3900 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:25 3900 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:25 3900 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:25 3900 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:25 3600 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:25 3900 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:25 3900 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:25 3900 [ERROR] Aborting
+
+2017-06-02 15:05:25 3600 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:25 3600 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:25 3600 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:25 3600 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:25 3600 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:25 3600 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:25 3600 [ERROR] Aborting
+
+2017-06-02 15:05:33 5156 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:33 5156 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:33 5156 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:33 5156 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:33 5156 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:33 5156 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:33 5156 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:33 5156 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:33 5156 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:33 5156 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:33 5156 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:33 5156 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:33 5156 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:33 5192 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:33 5156 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:33 5192 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:33 5156 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:33 5192 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:33 5156 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:33 5192 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:33 5156 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:33 5164 [Note] InnoDB: Using mutexes to ref count2017-06-02 15:05:33 5192 [Note] InnoDB: Compressed tables use zlib 1.2.3
+ buffer pool pa2g017-06-02 15:05:33 5156 [ERROR] Aborting
+
+es
+2017-06-02 15:05:33 5192 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:33 5164 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:33 5164 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:33 5164 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:33 5164 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:33 5164 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:33 5164 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:33 5172 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:33 5164 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:33 5172 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:33 5172 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:33 5192 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:33 5164 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:33 5172 [Note] InnoDB: _mm_lfence() and _mm_sfen2ce0(1)7 -a0r6e- 0u2s e1d5 :fo0r5 :m3e3m o5r1y6 4b a[rErRiReOrR
+] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:33 5172 [Note] InnoDB: Compress2ed0 1t7a-b0l6e-s0 2u s1e5 :z0l5i:b3 31 .521.64 [ERROR] Plu3gin 
+'InnoDB' init function returned error.
+2017-06-02 15:05:33 5164 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:33 5192 [Note] InnoDB: Completed initialization of buffer pool
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:33 5164 [ERROR] mysql2d.0e1x7e-:0 6A-r0i2a  1r5e:c0o5v:e3r3y  5f1a7i2l e[dN.o Please runt ea]r iInna_choDB: kUsin -r on all Aria tables angd  gdeenleertiec  aclrlc 3a2r iian_sltorgu.c#t#i#o#n#s#
+## files
+2017-06-02 15:05:34 5164 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:34 5164 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:34 5192 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:34 5172 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:34 5164 [Note] Plugin 'FEEDBACK' is disab2le0d1.7
+-20061-70-20 61-50:20 51:53:40 55:13942  5[1E6R4R O[RE]R RIOnRn]o DUBn:k nTohwen /suynsstuepmp otratbelde ssptaocrea gmeu setn gbien ew:r iItnanbolDeB!
+
+2017-06-02 15:05:34 5164 [ERROR] Aborting
+
+2017-06-02 15:05:34 5172 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:34 5192 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:34 5192 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:34 5192 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 2017-06-02 15:05:34 5192 [ERROR] Plugin 'Aria' init function returned error.
+15:05:34 5172 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:34 5192 [ERROR] Plugin 'Aria' registratio2n0 1a7s- 0a6 -S0T2O R1A5G:E0 5E:N3G4I N5E1 7f2a i[lEeRdR.O
+R] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:34 5192 [Note] Plugin 'FEED2B0AC1K7'- is disabled.0
+6-02 15:05:34 5172 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:34 51922 0[1E7RR-OR0]6 -U0n2k n1o5w:n0/5u:n3s4u p5p1o7r2t e[dE RsRtOoRr]a geP elnuggiinne :' IInnnnooDDBB'
+ registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:34 5192 [ERROR] Aborting
+
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:34 5172 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:34 5172 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:34 5172 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:34 5172 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:34 5172 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:34 5172 [ERROR] Aborting
+
+2017-06-02 15:05:42 5600 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:42 5600 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:42 5600 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:42 5600 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:42 5600 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:42 5600 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:42 5600 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:42 5600 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:42 5600 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:42 5600 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:42 5600 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:42 5600 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:42 5600 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:42 5600 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:42 5600 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:42 5600 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:42 5600 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:42 5600 [ERROR] Aborting
+
+2017-06-02 15:05:42 5668 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:42 5668 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:42 5668 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:42 5668 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:42 5668 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:42 5668 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:42 5668 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:42 5668 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:42 5668 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:42 5668 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:42 5668 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:42 5668 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:42 5668 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:42 5668 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:42 5668 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:42 5668 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:42 5668 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:42 5668 [ERROR] Aborting
+
+2017-06-02 15:05:42 5700 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:42 5700 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:42 5700 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:42 5700 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:42 5700 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:42 5700 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:42 5688 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:42 5700 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:42 5700 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:42 5688 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:42 5700 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:42 5700 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:42 5700 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:42 5688 [Note] InnoDB2:0 1M7u-t0e6x-e0s2  a1n5d: 0r5w:_4l2oc k5s7 0u0s e[ EWRiRnOdRo]w sP liungtierlonc k'eIdn nfouDnBc't iroengsi
+stration as a STORAGE ENGINE failed.
+2017-06-02 15:05:42 5688 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:42 5700 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:42 5700 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:42 5688 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:42 5700 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:42 5700 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:42 5700 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:42 5700 [ERROR] Aborting
+
+2017-06-02 15:05:42 5688 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:42 5688 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:42 5688 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:43 5688 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:43 5688 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:43 5808 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:43 5688 [ERROR] Plugin 'InnoDB' init function returned error.2
+017-06-02 15:05:43 5808 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:43 5688 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE fai2le0d1.7
+-06-02 15:05:43 5808 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:43 5808 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:43 5808 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:43 5808 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:43 5808 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:43 5688 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:43 5688 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:43 5688 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:43 5688 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:43 5808 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:43 5688 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:43 5688 [ERROR] Aborting
+
+2017-06-02 15:05:43 5808 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:43 5848 [Note]2 I017-06-02 15:05:43 580n8n o[DEBR:R OURs]i nIgn nmouDtB: The system tablespace must be writable!
+exes to ref count buffer pool pages
+2017-06-02 15:05:43 5808 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:43 5848 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:43 5808 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:43 5848 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:43 5848 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:43 5848 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:43 5848 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:43 5848 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:43 5808 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:43 5808 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:43 5792 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:43 5848 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:43 5808 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:43 5792 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:43 5792 [N2o0t1e7]- 0I6n-n0o2 15:D0B5:: 4M3u t5e8x0e8s  [aNnodt er]w _Pllocukgsi nu s'e FWEiEnDdBoAwCsK 'i nitse rdlioscakbelde df.u
+nctions
+2017-06-02 15:05:43 5792 [Note] InnoDB: _mm_lfence() and _mm_sfence() are use2d0 1f7o-r0 6m-e0m2o r1y5 :b0a5r:r4i3e r5
+808 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:43 5848 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:43 5792 [Note] 2In0n1o7D-B0:6 Co-mp0re2s s1e5d: tabl0e25s0: 14u73s-e0 6z-l0i2b  115.:20.53:
+43 5808 [ERROR] Aborting
+
+ 5848 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:43 5792 [Note] InnoDB: Using generic crc322 i0n1s7t-r0u6c-t0i2o n1s5
+:05:43 5848 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:43 5848 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:43 5792 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:43 5848 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:43 5848 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:43 5848 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:43 5848 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:43 5848 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:43 5848 [ERROR] Aborting
+
+2017-06-02 15:05:43 5792 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:43 5792 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:43 5792 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:43 5792 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:43 5792 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:43 5792 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:43 5792 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:43 5792 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:43 5792 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:43 5792 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:43 5792 [ERROR] Aborting
+
+2017-06-02 15:05:43 5816 [Note] InnoDB: Using mutexes to ref count buffer pool pages
+2017-06-02 15:05:43 5816 [Note] InnoDB: The InnoDB memory heap is disabled
+2017-06-02 15:05:43 5816 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-06-02 15:05:43 5816 [Note] InnoDB: _mm_lfence() and _mm_sfence() are used for memory barrier
+2017-06-02 15:05:43 5816 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-06-02 15:05:43 5816 [Note] InnoDB: Using generic crc32 instructions
+2017-06-02 15:05:43 5816 [Note] InnoDB: Initializing buffer pool, size = 128.0M
+2017-06-02 15:05:43 5816 [Note] InnoDB: Completed initialization of buffer pool
+2017-06-02 15:05:43 5816 [ERROR] InnoDB: .\ibdata1 can't be opened in read-write mode
+2017-06-02 15:05:43 5816 [ERROR] InnoDB: The system tablespace must be writable!
+2017-06-02 15:05:43 5816 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-06-02 15:05:43 5816 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+Cannot find checkpoint record at LSN (1,0x210f)
+
+2017-06-02 15:05:43 5816 [ERROR] mysqld.exe: Aria recovery failed. Please run aria_chk -r on all Aria tables and delete all aria_log.######## files
+2017-06-02 15:05:43 5816 [ERROR] Plugin 'Aria' init function returned error.
+2017-06-02 15:05:43 5816 [ERROR] Plugin 'Aria' registration as a STORAGE ENGINE failed.
+2017-06-02 15:05:43 5816 [Note] Plugin 'FEEDBACK' is disabled.
+2017-06-02 15:05:43 5816 [ERROR] Unknown/unsupported storage engine: InnoDB
+2017-06-02 15:05:43 5816 [ERROR] Aborting
+

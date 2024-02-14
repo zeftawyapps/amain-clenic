@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="jPanel1" alignment="0" max="32767" attributes="0"/>
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Component id="jPanel3" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="10" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="txt_pasName" max="32767" attributes="0"/>
+                                  <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                                  <Component id="aLable13" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_percent" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="aLable11" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_Total" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="aLable10" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_srv" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="aLable9" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_Consum" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="aLable8" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_ope" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <EmptySpace min="-2" pref="46" max="-2" attributes="0"/>
+                                          <Component id="aLable7" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" attributes="0">
+                                  <Component id="txt_pasID" min="-2" pref="82" max="-2" attributes="0"/>
+                                  <EmptySpace max="-2" attributes="0"/>
+                                  <Component id="aLable12" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="-2" pref="71" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Group type="103" groupAlignment="1" max="-2" attributes="0">
+                                      <Group type="102" attributes="0">
+                                          <Component id="txt_InsValue" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="aLable6" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="txt_pasValue" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="aLable5" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="1" attributes="0">
+                                          <Component id="txt_ExamValue" min="-2" pref="113" max="-2" attributes="0"/>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Component id="aLable4" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Group type="102" alignment="0" attributes="0">
+                                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                              <Component id="aCalender1" pref="113" max="32767" attributes="0"/>
+                                              <Component id="cmb_ExamType" max="32767" attributes="0"/>
+                                          </Group>
+                                          <EmptySpace max="32767" attributes="0"/>
+                                          <Group type="103" groupAlignment="0" attributes="0">
+                                              <Component id="aLable3" alignment="1" min="-2" max="-2" attributes="0"/>
+                                              <Component id="aLable2" alignment="1" min="-2" max="-2" attributes="0"/>
+                                          </Group>
+                                      </Group>
+                                  </Group>
+                                  <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="aLable1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="aLable1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace min="-2" pref="4" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="aLable12" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aLable13" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_pasID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_pasName" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="aLable2" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aLable7" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_ope" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aCalender1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace min="-2" pref="11" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="aLable3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aLable8" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_Consum" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="cmb_ExamType" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="aLable4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aLable9" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_ExamValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_srv" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="aLable5" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aLable10" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_pasValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_Total" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="aLable6" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="aLable11" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_InsValue" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txt_percent" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="projict_Class.ALable" name="aLable1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x643;&#x634;&#x648;&#x641;&#x627;&#x62a; &#x648;&#x639;&#x645;&#x644;&#x64a;&#x627;&#x62a; &#x627;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x62a;&#x627;&#x631;&#x64a;&#x62e; &#x627;&#x644;&#x643;&#x634;&#x641; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x646;&#x648;&#x639; &#x627;&#x644;&#x643;&#x634;&#x641; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x642;&#x64a;&#x645;&#x629; &#x627;&#x644;&#x643;&#x634;&#x641; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x642;&#x64a;&#x645;&#x629; &#x627;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x642;&#x64a;&#x645;&#x629; &#x634; &#x627;&#x644;&#x62a;&#x623;&#x645;&#x64a;&#x646; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x639;&#x645;&#x644;&#x64a;&#x640;&#x640;&#x640;&#x640;&#x640;&#x640;&#x640;&#x627;&#x62a; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x633;&#x62a;&#x647;&#x644;&#x643;&#x640;&#x640;&#x640;&#x640;&#x640;&#x627;&#x62a; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable9">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x62e;&#x62f;&#x645;&#x640;&#x640;&#x640;&#x640;&#x627;&#x62a; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable10">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x625;&#x62c;&#x645;&#x640;&#x640;&#x640;&#x640;&#x640;&#x640;&#x640;&#x627;&#x644;&#x649; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable11">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x646;&#x633;&#x628;&#x640;&#x640;&#x640;&#x640;&#x640;&#x629; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable12">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x631;&#x642;&#x645; &#x627;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.ALable" name="aLable13">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x633;&#x645; &#x627;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_pasID">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_pasIDActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_pasName">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txt_pasNameActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_ExamValue">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_pasValue">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_InsValue">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_ope">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_Consum">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_srv">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_Total">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_percent">
+        </Component>
+        <Component class="projict_Class.ACalender" name="aCalender1">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="cmb_ExamType">
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel3">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                          <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Component id="jScrollPane2" alignment="0" pref="489" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="32767" attributes="0"/>
+                  <Component id="jScrollPane2" min="-2" pref="108" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x643;&#x634;&#x648;&#x641;&#x627;&#x62a; &#x648;&#x627;&#x644;&#x639;&#x645;&#x644;&#x64a;&#x627;&#x62a; &#x627;&#x644;&#x62a;&#x649; &#x62a;&#x645;&#x62a; &#x644;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane2">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="Tble_pasRevenue1">
+              <Properties>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="mouseClicked" listener="java.awt.event.MouseListener" parameters="java.awt.event.MouseEvent" handler="Tble_pasRevenue1MouseClicked"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

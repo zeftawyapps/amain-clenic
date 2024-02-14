@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlPas_FrstData" alignment="1" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="pnlPas_FrstData" alignment="0" max="32767" attributes="0"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="pnlPas_FrstData">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="cc" red="cc" type="rgb"/>
+        </Property>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                      <Component id="pnl_Main_Data" max="32767" attributes="0"/>
+                      <Component id="pnlPas_Status" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="32767" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <Component id="pnl_Main_Data" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="pnlPas_Status" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JPanel" name="pnl_Main_Data">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="CmbMarital_Status_FrstVist" alignment="1" min="-2" pref="136" max="-2" attributes="0"/>
+                                  <Component id="txtHome_Phone_Pas_Data" min="-2" pref="136" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="jButton1" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Component id="CmbGovFrstVist" min="-2" pref="136" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LblMarital_Status_Pas_Data" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblGov_Pas_Data" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblHome_Phone_Pas_Data" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="jButton2" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="CmbJob_FistVist" alignment="0" pref="139" max="32767" attributes="0"/>
+                                  <Component id="txtAddress_Pas_Data" max="32767" attributes="0"/>
+                                  <Component id="txtMob_Pas_Data" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="LblAddress_Pas_Data" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LblJob_Pas_Data" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LblMob_Pas_Data" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="ClnDateBirth_FrstVist" pref="140" max="32767" attributes="0"/>
+                                  <Component id="CmbGender_FrstVist" max="32767" attributes="0"/>
+                                  <Component id="txtAge_Pas_Data" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Component id="LblGender_Pas_Data" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LblDateBirth_Pas_Data" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LblAge_Pas_Data" alignment="0" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace pref="174" max="32767" attributes="0"/>
+                                      <Component id="txt_pasID" min="-2" pref="125" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="txtName_Pas_Data" max="32767" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="LblID_Pas_Data" min="-2" max="-2" attributes="0"/>
+                                  <Component id="LblName_Pas_Data" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LblSet_Data" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="20" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" alignment="1" attributes="0">
+                              <Component id="LblSet_Data" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="40" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Component id="LblID_Pas_Data" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txt_pasID" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="-2" pref="12" max="-2" attributes="0"/>
+                                      <Component id="LblName_Pas_Data" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtName_Pas_Data" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                              <Component id="LblJob_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblGov_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblDateBirth_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CmbJob_FistVist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CmbGovFrstVist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="ClnDateBirth_FrstVist" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="LblGender_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CmbGender_FrstVist" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                              <Component id="LblMarital_Status_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblAddress_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CmbMarital_Status_FrstVist" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAddress_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="LblHome_Phone_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblAge_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblMob_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtAge_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtMob_Pas_Data" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtHome_Phone_Pas_Data" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="LblSet_Data">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x628;&#x64a;&#x627;&#x646;&#x627;&#x62a; &#x627;&#x644;&#x623;&#x633;&#x627;&#x633;&#x64a;&#x629; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblName_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x627;&#x633;&#x645; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblID_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x631;&#x642;&#x645; &#x627;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblDateBirth_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x62a;&#x627;&#x631;&#x64a;&#x62e; &#x627;&#x644;&#x645;&#x64a;&#x644;&#x627;&#x62f; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblGender_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x62c;&#x646;&#x633; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblJob_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x648;&#x638;&#x64a;&#x641;&#x629; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblAddress_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x639;&#x646;&#x648;&#x627;&#x646; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblGov_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x645;&#x62d;&#x627;&#x641;&#x638;&#x629; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblMarital_Status_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x62d;&#x627;&#x644;&#x629; &#x627;&#x644;&#x627;&#x62c;&#x62a;&#x645;&#x627;&#x639;&#x64a;&#x629; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblMob_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x645;&#x648;&#x628;&#x627;&#x64a;&#x644; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblHome_Phone_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x62a; &#x627;&#x644;&#x645;&#x646;&#x632;&#x644; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblAge_Pas_Data">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x633;&#x646;:"/>
+              </Properties>
+            </Component>
+            <Component class="org.jdesktop.swingx.JXDatePicker" name="ClnDateBirth_FrstVist">
+              <Properties>
+                <Property name="doubleBuffered" type="boolean" value="true"/>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="CmbJob_FistVist"/>
+                </Property>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ClnDateBirth_FrstVistActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="CmbGender_FrstVist">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="&#x630;&#x643;&#x631;"/>
+                    <StringItem index="1" value="&#x623;&#x646;&#x62b;&#x649;"/>
+                    <StringItem index="2" value=" "/>
+                    <StringItem index="3" value=" "/>
+                  </StringArray>
+                </Property>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtAddress_Pas_Data"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="CmbJob_FistVist">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="3">
+                    <StringItem index="0" value=" "/>
+                    <StringItem index="1" value=" "/>
+                    <StringItem index="2" value=" "/>
+                  </StringArray>
+                </Property>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="CmbGovFrstVist"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="CmbGovFrstVist">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="0"/>
+                </Property>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="CmbGender_FrstVist"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="javax.swing.JComboBox" name="CmbMarital_Status_FrstVist">
+              <Properties>
+                <Property name="model" type="javax.swing.ComboBoxModel" editor="org.netbeans.modules.form.editors2.ComboBoxModelEditor">
+                  <StringArray count="4">
+                    <StringItem index="0" value="&#x645;&#x62a;&#x632;&#x648;&#x62c;"/>
+                    <StringItem index="1" value="&#x623;&#x639;&#x632;&#x628;"/>
+                    <StringItem index="2" value="&#x623;&#x631;&#x645;&#x644;"/>
+                    <StringItem index="3" value="&#x645;&#x637;&#x644;&#x642;"/>
+                  </StringArray>
+                </Property>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtAge_Pas_Data"/>
+                </Property>
+              </Properties>
+              <AuxValues>
+                <AuxValue name="JavaCodeGenerator_TypeParameters" type="java.lang.String" value="&lt;String&gt;"/>
+              </AuxValues>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txt_pasID">
+              <Properties>
+                <Property name="enabled" type="boolean" value="false"/>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtName_Pas_Data"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtName_Pas_Data">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="ClnDateBirth_FrstVist"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtAge_Pas_Data">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtMob_Pas_Data"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtAddress_Pas_Data">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="LblMarital_Status_Pas_Data"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtMob_Pas_Data">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="LblHome_Phone_Pas_Data"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtHome_Phone_Pas_Data">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtHeight_Pas_Status"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton1">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="...."/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+              </Events>
+            </Component>
+            <Component class="javax.swing.JButton" name="jButton2">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="...."/>
+                <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+              </Properties>
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Container class="javax.swing.JPanel" name="pnlPas_Status">
+          <Properties>
+            <Property name="border" type="javax.swing.border.Border" editor="org.netbeans.modules.form.editors2.BorderEditor">
+              <Border info="org.netbeans.modules.form.compat2.border.LineBorderInfo">
+                <LineBorder/>
+              </Border>
+            </Property>
+          </Properties>
+
+          <Layout>
+            <DimensionLayout dim="0">
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace min="-2" pref="201" max="-2" attributes="0"/>
+                      <Component id="txtBlood_pasData" min="-2" pref="61" max="-2" attributes="0"/>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="LblBlood_Pas_Status" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="13" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Component id="txtSugar_Pas_Status" min="-2" pref="65" max="-2" attributes="0"/>
+                              <EmptySpace min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="LblSugar_Pas_Status" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <Component id="txtLeft_Eye_Pas_Status" min="-2" pref="63" max="-2" attributes="0"/>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Component id="LblLeft_Eye_Pas_Status" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="txtWeight_Pas_Status" max="32767" attributes="0"/>
+                          <Component id="txtRight_Eye_Pas_Status" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LblRight_Eye_Pas_Status" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblWeight_Pas_Status" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txthymoglobine_pasData" pref="56" max="32767" attributes="0"/>
+                          <Component id="txtHeight_Pas_Status" max="32767" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="LblHymoglopin_Pas_Status" alignment="1" min="-2" max="-2" attributes="0"/>
+                          <Component id="LblHeight_Pas_Status" alignment="1" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="32767" attributes="0"/>
+                      <Component id="LblPas_Status" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+            <DimensionLayout dim="1">
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="LblPas_Status" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                          <Component id="txtWeight_Pas_Status" max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="LblHeight_Pas_Status" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblWeight_Pas_Status" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblSugar_Pas_Status" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblBlood_Pas_Status" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txtSugar_Pas_Status" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                              <Component id="txtBlood_pasData" alignment="3" min="-2" pref="31" max="-2" attributes="0"/>
+                          </Group>
+                          <Group type="102" attributes="0">
+                              <EmptySpace min="5" pref="5" max="-2" attributes="0"/>
+                              <Component id="txtHeight_Pas_Status" max="32767" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="LblHymoglopin_Pas_Status" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblRight_Eye_Pas_Status" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblLeft_Eye_Pas_Status" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="txthymoglobine_pasData" min="-2" pref="34" max="-2" attributes="0"/>
+                              <Component id="txtRight_Eye_Pas_Status" alignment="3" min="-2" pref="34" max="-2" attributes="0"/>
+                          </Group>
+                          <Component id="txtLeft_Eye_Pas_Status" min="-2" pref="35" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+            </DimensionLayout>
+          </Layout>
+          <SubComponents>
+            <Component class="javax.swing.JLabel" name="LblPas_Status">
+              <Properties>
+                <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+                  <Font name="Tahoma" size="11" style="1"/>
+                </Property>
+                <Property name="text" type="java.lang.String" value="&#x62d;&#x627;&#x644;&#x629; &#x627;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblHeight_Pas_Status">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x637;&#x648;&#x644; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblWeight_Pas_Status">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x648;&#x632;&#x646; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblSugar_Pas_Status">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x633;&#x643;&#x631; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblBlood_Pas_Status">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x641;&#x635;&#x64a;&#x644;&#x629; &#x627;&#x644;&#x62f;&#x645; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblHymoglopin_Pas_Status">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x647;&#x64a;&#x645;&#x648;&#x62c;&#x644;&#x628;&#x64a;&#x646; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblRight_Eye_Pas_Status">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x639;&#x64a;&#x646; &#x627;&#x644;&#x64a;&#x645;&#x646;&#x649; :"/>
+              </Properties>
+            </Component>
+            <Component class="javax.swing.JLabel" name="LblLeft_Eye_Pas_Status">
+              <Properties>
+                <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x639;&#x64a;&#x646; &#x627;&#x644;&#x64a;&#x633;&#x631;&#x649; :"/>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtHeight_Pas_Status">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtWeight_Pas_Status"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtWeight_Pas_Status">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtSugar_Pas_Status"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtSugar_Pas_Status">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtBlood_pasData"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtBlood_pasData">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txthymoglobine_pasData"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txthymoglobine_pasData">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtRight_Eye_Pas_Status"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtRight_Eye_Pas_Status">
+              <Properties>
+                <Property name="nextFocusableComponent" type="java.awt.Component" editor="org.netbeans.modules.form.ComponentChooserEditor">
+                  <ComponentRef name="txtLeft_Eye_Pas_Status"/>
+                </Property>
+              </Properties>
+            </Component>
+            <Component class="projict_Class.TxTf" name="txtLeft_Eye_Pas_Status">
+              <Events>
+                <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtLeft_Eye_Pas_StatusActionPerformed"/>
+              </Events>
+            </Component>
+          </SubComponents>
+        </Container>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>

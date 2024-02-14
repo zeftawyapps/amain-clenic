@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" attributes="0">
+              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="jPanel1" alignment="1" min="-2" max="-2" attributes="0"/>
+                  <Component id="jPanel2" alignment="1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <Component id="jPanel1" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="32767" attributes="0"/>
+              <Component id="jPanel2" min="-2" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="jPanel1">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Component id="txtPas_Name" alignment="1" min="-2" pref="241" max="-2" attributes="0"/>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jButton5" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="jButton6" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="jButton7" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                              <Component id="jButton8" alignment="0" min="-2" pref="36" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                              <Component id="txt_opeCost" alignment="0" max="32767" attributes="0"/>
+                              <Component id="Cmb_opeType" pref="151" max="32767" attributes="0"/>
+                              <Component id="CmbAnthes_Type" max="32767" attributes="0"/>
+                              <Component id="Cmbope_Nurse" max="32767" attributes="0"/>
+                              <Component id="Cmbope_Technical" max="32767" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="Lbl_opeCost" min="-2" max="-2" attributes="0"/>
+                              <Component id="Lbl_opeType" min="-2" max="-2" attributes="0"/>
+                              <Component id="Lbl_opeNurse" min="-2" max="-2" attributes="0"/>
+                              <Component id="Lbl_AnesthType" min="-2" max="-2" attributes="0"/>
+                              <Component id="Lbl_opeTechnical" alignment="0" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <EmptySpace min="-2" pref="10" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="1" attributes="0">
+                                      <Component id="jButton1" min="-2" pref="36" max="-2" attributes="0"/>
+                                      <Component id="jButton2" min="-2" pref="36" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="jButton3" min="-2" pref="36" max="-2" attributes="0"/>
+                              </Group>
+                              <Component id="jButton4" min="-2" pref="36" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                      <Component id="Cmbope_Doctor" pref="157" max="32767" attributes="0"/>
+                                      <Component id="CmbAssist_Doctor" max="32767" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="Lbl_opeDoctor" min="-2" max="-2" attributes="0"/>
+                                      <Component id="Lbl_AssistDoctor" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <Group type="102" alignment="0" attributes="0">
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Component id="CmbAneths_Doctor" min="-2" pref="157" max="-2" attributes="0"/>
+                                      <Component id="ClnOpe_Date" min="-2" pref="157" max="-2" attributes="0"/>
+                                      <Component id="CmbConvrt_Doc" min="-2" pref="157" max="-2" attributes="0"/>
+                                  </Group>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Group type="103" groupAlignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="1" attributes="0">
+                                          <Component id="LblConrt_Doc" min="-2" max="-2" attributes="0"/>
+                                          <Component id="LblOpe_Date" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <Component id="Lbl_AnethDoctor" alignment="0" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <EmptySpace max="32767" attributes="0"/>
+                      </Group>
+                      <Group type="102" attributes="0">
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <Component id="LblPas_Name" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="txtPas_ID" min="-2" pref="85" max="-2" attributes="0"/>
+                                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                                  <Component id="LblPas_ID" min="-2" max="-2" attributes="0"/>
+                                  <EmptySpace min="0" pref="17" max="32767" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace min="-2" pref="5" max="-2" attributes="0"/>
+                  <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="LblPas_ID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="LblPas_Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPas_ID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtPas_Name" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace pref="12" max="32767" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="LblOpe_Date" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Lbl_opeType" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="ClnOpe_Date" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Cmb_opeType" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton5" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="Lbl_opeCost" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txt_opeCost" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <Group type="103" alignment="1" groupAlignment="3" attributes="0">
+                          <Component id="LblConrt_Doc" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="CmbConvrt_Doc" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="jButton1" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Lbl_AnesthType" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="CmbAnthes_Type" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton6" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Lbl_opeNurse" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Cmbope_Nurse" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton7" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="CmbAneths_Doctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Lbl_AnethDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton2" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace type="separate" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="Lbl_opeDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="Cmbope_Doctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="jButton3" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                  </Group>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="3" attributes="0">
+                      <Component id="Lbl_AssistDoctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Lbl_opeTechnical" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="CmbAssist_Doctor" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="Cmbope_Technical" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton4" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jButton8" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel1">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x628;&#x64a;&#x627;&#x646;&#x627;&#x62a; &#x627;&#x644;&#x639;&#x645;&#x644;&#x64a;&#x627;&#x62a; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lbl_opeType">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x646;&#x648;&#x639; &#x627;&#x644;&#x639;&#x645;&#x644;&#x64a;&#x629; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lbl_AnethDoctor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x637;&#x628;&#x64a;&#x628; &#x627;&#x644;&#x62a;&#x62e;&#x62f;&#x64a;&#x631; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lbl_opeDoctor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x637;&#x628;&#x64a;&#x628; &#x627;&#x644;&#x639;&#x645;&#x644;&#x64a;&#x629;  :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lbl_AssistDoctor">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x644;&#x637;&#x628;&#x64a;&#x628; &#x627;&#x644;&#x645;&#x633;&#x627;&#x639;&#x62f; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lbl_opeCost">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x62a;&#x643;&#x644;&#x641;&#x629; &#x627;&#x644;&#x639;&#x645;&#x644;&#x64a;&#x627;&#x62a; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lbl_AnesthType">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x646;&#x648;&#x639; &#x627;&#x644;&#x62a;&#x62e;&#x62f;&#x64a;&#x631; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lbl_opeNurse">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x645;&#x645;&#x631;&#x636;&#x629; &#x627;&#x644;&#x639;&#x645;&#x644;&#x64a;&#x627;&#x62a; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="Lbl_opeTechnical">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x641;&#x646;&#x649; &#x639;&#x645;&#x644;&#x64a;&#x627;&#x62a; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblPas_ID">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x631;&#x642;&#x645; &#x627;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblPas_Name">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x633;&#x645; &#x627;&#x644;&#x645;&#x631;&#x64a;&#x636; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblOpe_Date">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x62a;&#x627;&#x631;&#x64a;&#x62e; &#x627;&#x644;&#x639;&#x645;&#x644;&#x64a;&#x629; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblConrt_Doc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x637;&#x628;&#x64a;&#x628; &#x627;&#x644;&#x62a;&#x62d;&#x648;&#x64a;&#x644;"/>
+          </Properties>
+        </Component>
+        <Component class="projict_Class.TxTf" name="txtPas_ID">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txtPas_Name">
+        </Component>
+        <Component class="projict_Class.TxTf" name="txt_opeCost">
+        </Component>
+        <Component class="projict_Class.ACalender" name="ClnOpe_Date">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="CmbConvrt_Doc">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="CmbAneths_Doctor">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="Cmbope_Doctor">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="CmbAssist_Doctor">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="Cmb_opeType">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="CmbAnthes_Type">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="Cmbope_Nurse">
+        </Component>
+        <Component class="projict_Class.ACombobox" name="Cmbope_Technical">
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton1">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton1ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton2">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton2ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton3ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton4">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton4ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton5">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton5ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton6">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton6ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton7">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton7ActionPerformed"/>
+          </Events>
+        </Component>
+        <Component class="javax.swing.JButton" name="jButton8">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="..."/>
+            <Property name="toolTipText" type="java.lang.String" value="&#x627;&#x62f;&#x62e;&#x627;&#x644; &#x62c;&#x62f;&#x64a;&#x62f;"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="jButton8ActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="jPanel2">
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Component id="jScrollPane1" alignment="1" pref="588" max="32767" attributes="0"/>
+              <Group type="102" alignment="1" attributes="0">
+                  <Group type="103" groupAlignment="1" attributes="0">
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Component id="txtNotice_Doc" min="-2" pref="205" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Group type="103" groupAlignment="0" attributes="0">
+                              <Component id="jLabel2" alignment="1" min="-2" max="-2" attributes="0"/>
+                              <Component id="jLabel3" alignment="1" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                      </Group>
+                      <Group type="102" alignment="1" attributes="0">
+                          <EmptySpace min="-2" pref="213" max="-2" attributes="0"/>
+                          <Component id="LblNotce_Doc" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="32767" attributes="0"/>
+                          <Component id="txtTotal_Revenue" min="-2" pref="94" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" alignment="0" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="jLabel2" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                  <Component id="jScrollPane1" min="-2" pref="121" max="-2" attributes="0"/>
+                  <EmptySpace type="separate" max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Group type="102" alignment="0" attributes="0">
+                          <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="3" attributes="0">
+                              <Component id="txtTotal_Revenue" alignment="3" min="-2" max="-2" attributes="0"/>
+                              <Component id="LblNotce_Doc" alignment="3" min="-2" max="-2" attributes="0"/>
+                          </Group>
+                          <EmptySpace min="0" pref="11" max="32767" attributes="0"/>
+                      </Group>
+                      <Component id="txtNotice_Doc" alignment="0" max="32767" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Component class="javax.swing.JLabel" name="jLabel2">
+          <Properties>
+            <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
+              <Font name="Tahoma" size="11" style="1"/>
+            </Property>
+            <Property name="text" type="java.lang.String" value="&#x635;&#x631;&#x641; &#x645;&#x633;&#x62a;&#x647;&#x644;&#x643; &#x639;&#x645;&#x644;&#x64a;&#x627;&#x62a; &#x623;&#x648; &#x623;&#x62f;&#x648;&#x64a;&#x629; &#x628;&#x633;&#x639;&#x631; &#x627;&#x644;&#x628;&#x64a;&#x639; :"/>
+          </Properties>
+        </Component>
+        <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JTable" name="Tble_ope_Data">
+              <Properties>
+                <Property name="foreground" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+                  <Color blue="ff" green="ff" red="ff" type="rgb"/>
+                </Property>
+                <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+                  <Table columnCount="4" rowCount="4">
+                    <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                    <Column editable="true" title="Title 4" type="java.lang.Object"/>
+                  </Table>
+                </Property>
+              </Properties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="jLabel3">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x627;&#x62c;&#x645;&#x627;&#x644;&#x649; &#x645;&#x646;&#x635;&#x631;&#x641; &#x627;&#x644;&#x645;&#x633;&#x62a;&#x647;&#x644;&#x643; &#x623;&#x648; &#x627;&#x644;&#x623;&#x62f;&#x648;&#x64a;&#x629; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtTotal_Revenue">
+        </Component>
+        <Component class="javax.swing.JLabel" name="LblNotce_Doc">
+          <Properties>
+            <Property name="text" type="java.lang.String" value="&#x645;&#x644;&#x627;&#x62d;&#x638;&#x627;&#x62a; &#x627;&#x644;&#x637;&#x628;&#x64a;&#x628; :"/>
+          </Properties>
+        </Component>
+        <Component class="javax.swing.JTextField" name="txtNotice_Doc">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtNotice_DocActionPerformed"/>
+          </Events>
+        </Component>
+      </SubComponents>
+    </Container>
+  </SubComponents>
+</Form>
